@@ -7,20 +7,10 @@ Date : 5/9/2021
 Copy Wrong : This is my work
 """
 
-import chris
+import Mylib
 
 # This program will improve on the calculator program by using modules
 # and string manipulation.
-
-def subtract(x,y):
-    print(str(x) + "+" + str(y))
-
-def multiply(x,y):
-    print(str(x) + "+" + str(y))
-
-def divide(x,y):
-    print(str(x) + "+" + str(y))
-
 
 # Define IsinRange function
 def IsinRange():
@@ -105,9 +95,9 @@ while True:
     # User input for math operations
 
 
-    print("The Result of",num1,"+", num2,"=",chris.add(num1,num2))
-    print("The Result of",num1,"-", num2,"=",subtract(num1,num2))
-    print("The Result of",num1,"*", num2,"=",multiply(num1,num2))
+    print("The Result of",num1,"+", num2,"=",Mylib.add(num1,num2))
+    print("The Result of",num1,"-", num2,"=",Mylib.subtract(num1,num2))
+    print("The Result of",num1,"*", num2,"=",Mylib.multiply(num1,num2))
     
     # Error "ZeroDivisionError" to show that there was a division that happen
     
