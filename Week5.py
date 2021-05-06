@@ -7,8 +7,19 @@ Date : 5/9/2021
 Copy Wrong : This is my work
 """
 
+import chris
+
 # This program will improve on the calculator program by using modules
 # and string manipulation.
+
+def subtract(x,y):
+    print(str(x) + "+" + str(y))
+
+def multiply(x,y):
+    print(str(x) + "+" + str(y))
+
+def divide(x,y):
+    print(str(x) + "+" + str(y))
 
 
 # Define IsinRange function
@@ -23,9 +34,9 @@ def IsinRange():
 
 # import Mylib module for calculator operations
 
-import Mylib
-n=Mylib.add(x,y)
-        print(n)
+#import Mylib
+#n=Mylib.add(x,y)
+#print(n)
 
 # excpetion handling using try/except to catch ValueError       
 
@@ -94,7 +105,7 @@ while True:
     # User input for math operations
 
 
-    print("The Result of",num1,"+", num2,"=",add(num1,num2))
+    print("The Result of",num1,"+", num2,"=",chris.add(num1,num2))
     print("The Result of",num1,"-", num2,"=",subtract(num1,num2))
     print("The Result of",num1,"*", num2,"=",multiply(num1,num2))
     
